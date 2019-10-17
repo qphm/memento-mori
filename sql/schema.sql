@@ -1,3 +1,12 @@
+CREATE TABLE "fifa" (
+    "fifa_rank"             NUMERIC     NOT NULL,
+    "country"               TEXT        NOT NULL,
+    "total_points"          NUMERIC     NOT NULL,
+    "cur_year_avg"          NUMERIC     NOT NULL,
+    "cur_year_avg_weighted" NUMERIC     NOT NULL,
+    "rank_date"             DATE        NOT NULL,
+    PRIMARY KEY (country)
+);
 CREATE TABLE "suicide" (
     "country"       TEXT        NOT NULL,
     "suicide_rate"  NUMERIC     NOT NULL,
@@ -18,12 +27,7 @@ CREATE TABLE "happiness" (
     FOREIGN KEY (country) REFERENCES fifa (country)
 );
 
-CREATE TABLE "fifa" (
-    "fifa_rank"             NUMERIC     NOT NULL,
-    "country"               TEXT        NOT NULL,
-    "total_points"          NUMERIC     NOT NULL,
-    "cur_year_avg"          NUMERIC     NOT NULL,
-    "cur_year_avg_weighted" NUMERIC     NOT NULL,
-    "rank_date"             DATE        NOT NULL,
-    PRIMARY KEY (country)
-);
+ALTER TABLE suicide DISABLE TRIGGER ALL;
+ALTER TABLE freedom DISABLE TRIGGER ALL;
+ALTER TABLE happiness DISABLE TRIGGER ALL;
+
