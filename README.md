@@ -12,6 +12,6 @@ According to the World Health Organization:
 
 [FIFA World Rankings](https://www.kaggle.com/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now)
 
-[Suicide Rates](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016)
-
 [World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness)
+
+[World Health Organization](https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/)
