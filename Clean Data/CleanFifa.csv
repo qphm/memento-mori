@@ -32,7 +32,7 @@ fifa_rank,country,total_points,cur_year_avg,cur_year_avg_weighted,rank_date
 31,Austria,773.49,205.01,205.01,2016-12-22
 32,Northern Ireland,767.31,336.98,336.98,2016-12-22
 33,Senegal,754.74,401.78,401.78,2016-12-22
-34,CÃ´te d'Ivoire,746.44,285.14,285.14,2016-12-22
+34,Ivory Coast,746.44,285.14,285.14,2016-12-22
 35,Tunisia,737.54,371.57,371.57,2016-12-22
 36,Egypt,718.83,421.05,421.05,2016-12-22
 37,South Korea,699.47,401.08,401.08,2016-12-22
@@ -78,7 +78,7 @@ fifa_rank,country,total_points,cur_year_avg,cur_year_avg_weighted,rank_date
 77,Jamaica,463.27,176.22,176.22,2016-12-22
 78,Trinidad and Tobago,451.5,141.02,141.02,2016-12-22
 79,Guatemala,450.36,273.26,273.26,2016-12-22
-80,Cape Verde Islands,442.66,53.13,53.13,2016-12-22
+80,Cape Verde,442.66,53.13,53.13,2016-12-22
 80,St Kitts and Nevis,442.64,301.16,301.16,2016-12-22
 82,China,426.52,222.7,222.7,2016-12-22
 83,Faroe Islands,422.49,229.35,229.35,2016-12-22
@@ -120,7 +120,7 @@ fifa_rank,country,total_points,cur_year_avg,cur_year_avg_weighted,rank_date
 119,Iraq,277.57,91.69,91.69,2016-12-22
 120,Philippines,272.68,140.06,140.06,2016-12-22
 121,Oman,272.08,101.58,101.58,2016-12-22
-122,Kyrgyz Republic,265.27,92.41,92.41,2016-12-22
+122,Kyrgyzstan,265.27,92.41,92.41,2016-12-22
 123,Bahrain,263.64,117.3,117.3,2016-12-22
 124,Nicaragua,261.86,91.12,91.12,2016-12-22
 125,North Korea,257.29,124.31,124.31,2016-12-22
