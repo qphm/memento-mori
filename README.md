@@ -8,10 +8,32 @@ According to the World Health Organization:
 
 ## Data Sources
 
-[Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index)
+[Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index) (.csv)
 
-[FIFA World Rankings](https://www.kaggle.com/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now)
+[FIFA World Rankings](https://www.kaggle.com/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now) (.csv)
 
-[World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness)
+[World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness) (.csv)
 
-[World Health Organization](https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/)
+[World Health Organization](https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/) (.csv)
+
+
+## Pipeline
+1. Download data from "Data Sources"
+
+2. Transformations / Generation
+   * Jupyter Notebook`
+       1. Import Original CSVs
+       1. Filter columns ("Country", "Freedom Rank", "Freedom Score", "Suicide Rate per 100k", "Happiness Rank", "Happiness Score", "Fifa Score", "Fifa Total Points")
+       1. Sort Null Value rows onto a different dataframe
+       1. Fix duplicate country names with different spelling and combine rows
+       1. Concatenate above data set with original data set so that both only contain full rows and exclude countries with incomplete information
+       1. Export to CSV
+        
+   * Postgres 
+     1. Import Original CSVs
+     1. Utilize Full Outer Join to identify inconsistency in country names
+     1. Rename identified countries
+     1. Store country - `Clean Data/CleanFifa.csv`, `Clean Data/CleanSuicide.csv`, `Clean Data/CleanHappiness.csv`, `Clean Data/CleanFreedom.csv`
+     
+3. Load
+   * Schema - `sql/schema.sql`
