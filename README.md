@@ -20,7 +20,7 @@ According to the World Health Organization:
 ## Pipeline
 1. Download data from "Data Sources"
 
-2. Transformations / Generation
+2. Transformation
    * Jupyter Notebook`
        1. Import Original CSVs
        1. Filter columns ("Country", "Freedom Rank", "Freedom Score", "Suicide Rate per 100k", "Happiness Rank", "Happiness Score", "Fifa Score", "Fifa Total Points")
@@ -32,8 +32,13 @@ According to the World Health Organization:
    * Postgres 
      1. Import Original CSVs
      1. Utilize Full Outer Join to identify inconsistency in country names
-     1. Rename identified countries
+     1. Modify identified country names
      1. Store country - `Clean Data/CleanFifa.csv`, `Clean Data/CleanSuicide.csv`, `Clean Data/CleanHappiness.csv`, `Clean Data/CleanFreedom.csv`
      
 3. Load
-   * Schema - `sql/schema.sql`
+   * Schema - `sql/schema.sql
+   * Data - `sql/queries.sql
+     * FIFA data
+     * Freedom data
+     * Happiness data
+     * Suicide data
