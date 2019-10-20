@@ -33,7 +33,7 @@ According to the World Health Organization:
      1. Import Original CSVs
      1. Utilize Full Outer Join to identify inconsistency in country names
      1. Modify identified country names
-     1. Store country - `Clean Data/CleanFifa.csv`, `Clean Data/CleanSuicide.csv`, `Clean Data/CleanHappiness.csv`, `Clean Data/CleanFreedom.csv`
+     1. Store country - `output/CleanFifa.csv`, `output/CleanSuicide.csv`, `output/CleanHappiness.csv`, `output/CleanFreedom.csv`
      
 3. Load
    * Schema - `sql/schema.sql`
