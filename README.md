@@ -36,8 +36,8 @@ According to the World Health Organization:
      1. Store country - `Clean Data/CleanFifa.csv`, `Clean Data/CleanSuicide.csv`, `Clean Data/CleanHappiness.csv`, `Clean Data/CleanFreedom.csv`
      
 3. Load
-   * Schema - `sql/schema.sql
-   * Data - `sql/queries.sql
+   * Schema - `sql/schema.sql`
+   * Data - `sql/queries.sql`
      * FIFA data
      * Freedom data
      * Happiness data
