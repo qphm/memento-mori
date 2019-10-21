@@ -14,7 +14,7 @@ According to the World Health Organization:
 
 [World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness) (.csv)
 
-[World Health Organization](https://www.who.int/mental_health/prevention/suicide/suicideprevent/en/) (.csv)
+[World Health Organization](http://apps.who.int/gho/data/node.sdg.3-4-data?lang=en) (.csv)
 
 
 ## Pipeline
