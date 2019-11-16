@@ -1,4 +1,4 @@
-# Pr: untitled Airbnb project 
+# Airbnb project 
 ![](https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)Credit: [Oliver Niblett](https://unsplash.com/@ojnibl)
 
 ## Introduction
@@ -6,8 +6,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Data Sources
 
-[NYC Airbnb](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)(.csv)
-
+[Inside Airbnb] http://insideairbnb.com/get-the-data.html (csv)
 [Zillow](https://www.zillow.com/howto/api/APIOverview.htm) (API)
 
 
