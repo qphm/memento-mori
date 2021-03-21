@@ -5,17 +5,13 @@
 According to the World Health Organization:
 
 > "Close to 800,000 people die due to suicide every year, which is one person every 40 seconds. Suicide is a global phenomenon and occurs throughout the lifespan. Effective and evidence-based interventions can be implemented at population, sub-population and individual levels to prevent suicide and suicide attempts. There are indications that for each adult who died by suicide there may have been more than 20 others attempting suicide."
+> 
 
-## Data Sources
+## Prerequisites
+Libraries you will need
 
-[Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index) (.csv)
-
-[FIFA World Rankings](https://www.kaggle.com/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now) (.csv)
-
-[World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness) (.csv)
-
-[World Health Organization](http://apps.who.int/gho/data/node.sdg.3-4-data?lang=en) (.csv)
-
+* pandas
+* numpy
 
 ## Pipeline
 1. Download data from "Data Sources"
@@ -41,3 +37,13 @@ According to the World Health Organization:
      * FIFA data
      * Freedom data
      * Happiness data
+
+## Data Sources
+
+[Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index) (.csv)
+
+[FIFA World Rankings](https://www.kaggle.com/tadhgfitzgerald/fifa-international-soccer-mens-ranking-1993now) (.csv)
+
+[World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness) (.csv)
+
+[World Health Organization](http://apps.who.int/gho/data/node.sdg.3-4-data?lang=en) (.csv)
